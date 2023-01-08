@@ -1,0 +1,8 @@
+#! /usr/bin/bash
+
+sleep 1
+xrandr --output Virtual-1 --mode 1920x1080 &
+xsetroot -name "autoruned" &
+notify-send "Hello $USER" "wellcome home" &
+sleep 1
+feh --bg-scale /home/asd/.wall/0.png &
